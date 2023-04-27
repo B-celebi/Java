@@ -7,6 +7,8 @@ public class App {
         System.out.println("Hava durumunu giriniz:");
         int heat = scanner.nextInt();
 
+        scanner.close();
+
         if (heat < 5) {
             System.out.println("Kayak yapabilirsiniz.");
         } else if ((heat >= 5) && (heat <= 15)) {
