@@ -1,0 +1,1 @@
+## 3 & 4'e bölünebilirlik
