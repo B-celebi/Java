@@ -6,6 +6,7 @@ public class App {
         System.out.println("Bir sayı giriniz: ");
 
         int den = scn.nextInt(), sum = 0, hanesayisi = 0, i = 0;
+        scn.close();
 
         while (den / Math.pow(10, i) >= 1 || den / Math.pow(10, i) == 0) {
             hanesayisi++;
