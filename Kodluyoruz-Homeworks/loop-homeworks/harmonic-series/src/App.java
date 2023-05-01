@@ -6,6 +6,7 @@ public class App {
         Scanner scn = new Scanner(System.in);
         System.out.println("Bir sayı giriniz: ");
         int input = scn.nextInt();
+        scn.close();
 
         double toplam = 1;
         for (double i = 1; i <= input; i++) {
