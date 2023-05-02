@@ -5,6 +5,7 @@ public class App {
         Scanner scn = new Scanner(System.in);
         System.out.println("Bir tamsayı giriniz: ");
         int a = scn.nextInt();
+        scn.close();
         int toplam = 0;
         for (int i = 1; i < a; i++) {
             if (a % i == 0)
