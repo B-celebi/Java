@@ -1,0 +1,1 @@
+## drawing a diamond using loops in java
