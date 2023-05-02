@@ -28,5 +28,6 @@ public class App {
             }
         }
         System.out.println("ekok:" + ekok);
+        scn.close();
     }
 }
