@@ -1,0 +1,1 @@
+## simple perfect number app
