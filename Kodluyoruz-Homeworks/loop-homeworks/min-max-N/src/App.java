@@ -23,5 +23,6 @@ public class App {
         }
         System.out.println("Minimum değer: " + min);
         System.out.println("Maximum değer: " + max);
+        scn.close();
     }
 }
