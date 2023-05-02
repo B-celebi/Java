@@ -1,0 +1,1 @@
+## min max finder of N input
