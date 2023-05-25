@@ -10,12 +10,12 @@ public class App {
         System.out.println("Sütün sayısını giriniz : ");
         y = scn.nextInt();
 
-        // defining an multi-dimensional Array
+        // defining a multi-dimensional Array
         int[][] ornek = new int[x][y];
         while (sayac < ornek.length) {
             for (int i = 0; i < ornek[sayac].length; i++) {
                 // asking next value for the current row from user
-                System.out.println(sayac + ". satırda sıradaki sayı : ");
+                System.out.println((sayac + 1) + ". satırda sıradaki sayı : ");
                 ornek[sayac][i] = scn.nextInt();
             }
             sayac++;
