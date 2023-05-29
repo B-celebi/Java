@@ -10,7 +10,7 @@ public class App {
     }
 
     public static void main(String[] args) throws Exception {
-        int[] list = new int[] { 10, 5, 9, 3, 4, 3, 9, 5, 1, 2, 26 };
+        int[] list = new int[] { 10, 5, 9, 3, 4, 3, 9, 5, 1, 2, 26, 26 };
         int[] duplicate = new int[list.length];
         int counter = 0;
         for (int i = 0; i < list.length; i++) {
@@ -19,7 +19,7 @@ public class App {
                     if (i == j) {
                         continue;
                     } else {
-                        if (list[i] == list[j]) {
+                        if (list[i] == list[j] && list[i] % 2 == 0) {
                             duplicate[counter++] = list[i];
                         }
                     }
