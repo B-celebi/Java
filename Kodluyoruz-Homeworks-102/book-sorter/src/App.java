@@ -19,7 +19,7 @@ public class App {
             System.out.println(book.name + " " + book.pages);
         }
 
-        TreeSet<Book> books2 = new TreeSet<>(Comparator.comparingInt(Book::getPageNum));
+        TreeSet<Book> books2 = new TreeSet<>(new OrderByPagesComparator());
 
         books2.addAll(books);
         System.out.println("\nKitaplar sayfalarina gore siralandi:\n");
